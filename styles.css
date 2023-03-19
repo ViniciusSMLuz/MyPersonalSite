@@ -1,0 +1,166 @@
+/* Absolute(muda para qualquer lugar, muda a partir do pai), relative( muda a partir de onde era pra estar, fixed(não muda com o scroll)*/
+div {
+    background-color: rgb(136, 193, 247);
+    text-align: center;
+}
+
+img {
+    display: inline-block;
+}
+
+.x1 {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0%;
+    text-align: center
+        /*centraliza tudo que não tem uma largura definida, se tiver, e quiser etralizar ou mudar algum elemento de lugar, usar auto e 0 */
+    ;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(136, 193, 247);
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    margin-top: 50px, 0, auto, 0;
+    font-size: 3.225rem;
+    /* usar rem ou invés de px ou porcentagem */
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+}
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    line-height: normal;
+}
+
+.top-container {
+    background-color: rgb(136, 193, 247);
+    position: relative;
+    bottom: 0;
+    padding-top: 100px;
+}
+
+.s1 {
+    display: inline-block;
+    /* permite que você mude a width do elemento fazendo com que ele fiqeu na mesma liha que os outros, ou não */
+}
+
+/*para alterar a posição de elemetos não necessariamente você precisa usar pad, border ou matgin, só informe a direção */
+.nuv4 {
+    bottom: 0;
+    position: relative;
+}
+
+.nuv3 {
+    position: absolute;
+    bottom: 350px;
+    left: 400px;
+}
+
+.nuv2 {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.nuv1 {
+    position: absolute;
+    right: 900px;
+    top: 130px;
+}
+
+.perfil {
+    border-radius: 100%;
+    border: 2rem;
+}
+
+
+p {
+
+    font-size: 1.12rem;
+    /* 1 rem = 16px */
+    color: black;
+    font-family: 'Sono', sans-serif;
+    text-decoration: none;
+    text-decoration-line: none;
+
+}
+
+.span1 {
+    color: gold;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 10px;
+    border-color: rgb(245, 245, 245);
+    height: 0px;
+    width: 15%;
+    size: 12px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.AP1 {
+    position: relative;
+
+}
+
+.skill-row {
+    width: 50%;
+    margin: auto;
+    /* float: left; faz o texto ou imagem ir para a direção que você quer dentro da row( alinha a direita, esquerda, etc) CLEAR = é  oposto de float, impede que algo vá para o canto que vc selecionar*/
+}
+
+.profile {
+    width: 50%;
+    margin: auto;
+}
+
+.bottom-container {
+    background-color: rgb(182, 194, 248);
+    padding: 50px, 0, 50px, 0;
+}
+
+.c12 {
+    color: #0df2fa;
+    font-size: 20px;
+    font-family: 'Sono', sans-serif;
+    text-decoration: none;
+    text-decoration-style: none;
+    text-decoration-skip: none;
+    text-decoration-line: none;
+}
+
+.b1 {
+    color: cadetblue;
+    font-size: 20px;
+    font-family: 'Sono', sans-serif;
+    text-decoration: none;
+}
+
+.b1:hover {
+    color: gold;
+}
+.c12:hover {
+    color: blue;
+    text-decoration: none;
+    text-decoration-style: none;
+}
+.h3p {
+    text-align: center;
+}
+
+.q {
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+}
