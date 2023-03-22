@@ -138,6 +138,7 @@ hr {
     text-decoration-style: none;
     text-decoration-skip: none;
     text-decoration-line: none;
+   
 }
 
 .b1 {
@@ -145,6 +146,7 @@ hr {
     font-size: 20px;
     font-family: 'Sono', sans-serif;
     text-decoration: none;
+    margin-top: 12px; /* <button class=""> Hello World </button>  */
 }
 
 .b1:hover {
@@ -155,8 +157,15 @@ hr {
     text-decoration: none;
     text-decoration-style: none;
 }
-.h3p {
+.ctm {
     text-align: center;
+    font-size: 15px;
+    margin: 0, auto, 0, auto;
+    font-family: 'Sono', sans-serif;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .q {
